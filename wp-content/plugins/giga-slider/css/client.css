@@ -1,0 +1,26 @@
+
+.cleaner{
+	clear: both;
+}
+
+/* begin thumbnails */
+div.camera_thumbs_cont{
+	/*background-color: #FF0000;*/
+}
+/* end thumbnails */
+
+/* camera caption link inherits important styles */
+.camera_caption a{
+	padding: 0 !important;
+	margin: 0 !important;
+	background: transparent !important;
+	font-size: inherit !important;
+	color: inherit !important;
+	text-decoration: inherit !important;
+	opacity: inherit !important;
+	filter: inherit !important;
+}
+.camera_caption a:link, .camera_caption a:visited, .camera_caption a:hover, .camera_caption a:active{
+	color: inherit !important;
+	text-decoration: inherit !important;
+}img.camera_thumb.extraLarge{	width: 150px !important;	height: 110px !important;}img.camera_thumb.large{	width: 125px !important;	height: 90px !important;}img.camera_thumb.medium{	width: 100px !important;	height: 75px !important;}img.camera_thumb.small{	width: 75px !important;	height: 50px !important;}img.camera_thumb.extraSmall{	width: 50px !important;	height: 35px !important;}

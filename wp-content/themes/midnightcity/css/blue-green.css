@@ -1,0 +1,42 @@
+/* Color scheme Blue-Green
+----------------------------------------------- */
+
+/* green */
+html body {
+  border-top-color: #7c8925;          
+}
+body #wrapper-footer,
+body .menu-box,
+.js #header .menu-box .selectnav {
+  background-color: #7c8925;                      
+}
+body .content-headline,
+body .entry-headline,
+body .page-title,
+body .sidebar-widget .sidebar-headline,
+body .sidebar-widget .sidebar-headline a {
+  color: #7c8925;                      
+}
+body .menu-box,
+body .menu-box ul ul {
+  border-color: #d1e353;               
+}
+body a {
+  color: #a3b239;       
+}
+body .menu-box a:hover,
+body .menu-box :hover > a {
+  background-color: #a8ba31;                     
+}
+body #header .menu-box .current-menu-item > a,
+body #header .menu-box .current-menu-ancestor > a,
+body #header .menu-box .current_page_item > a,
+body #header .menu-box .current-page-ancestor > a,
+html .home #header .menu-box .link-home,
+body .footer-signature {
+  background-color: #5f691c;                                   
+}
+body #footer .footer-widget .footer-headline,
+.js #header .menu-box .selectnav {
+  border-color: #5f691c;                                        
+}

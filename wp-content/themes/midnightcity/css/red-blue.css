@@ -1,0 +1,97 @@
+/* Color scheme Red-Blue
+----------------------------------------------- */
+
+/* red */
+body .site-title a,
+body .post-entry .post-entry-headline a,
+body #content .home-list-posts ul li a,
+body .flexslider .slides li a,
+body .sidebar-widget a {
+  color: #ff2b2b;                   
+}
+body .content-headline,
+body .entry-headline,
+body .page-title {
+  border-left-color: #ff2b2b; 
+  border-right-color: #ff2b2b;                     
+}
+body #searchform .searchform-wrapper .send {
+  background-color: #ff5c5c;                                            
+}
+body .highlight-text,
+body .post-entry .read-more-button,
+body input[type="submit"],
+body input[type="reset"],
+body .custom-button,
+html #wrapper .panel-row-style-midnightcity .origin-widget-button a {
+  background-color: #ff6060;                     
+}
+body .post-entry .read-more-button:hover,
+body input[type="submit"]:hover,
+body input[type="reset"]:hover,
+body .custom-button:hover,
+body #searchform .searchform-wrapper .send:hover,
+html #wrapper .panel-row-style-midnightcity .origin-widget-button a:hover {
+  background-color: #ff1111;                                         
+}
+body #header .menu-box .current-menu-item > a,
+body #header .menu-box .current-menu-ancestor > a,
+body #header .menu-box .current_page_item > a,
+body #header .menu-box .current-page-ancestor > a,
+html .home #header .menu-box .link-home {
+  color: #ffd6d6;                                   
+}
+body .sidebar-widget .sidebar-headline {
+  background-color: #ffd6d6;                                       
+}
+body .sidebar-widget .sidebar-headline {
+  border-left-color: #ff9393;  
+  border-right-color: #ff9393;                                    
+}
+body #footer .footer-widget .footer-headline {
+  color: #ffadad;                                             
+}
+body #footer a,
+body .footer-signature .footer-signature-content a {
+  color: #ffd1d1;               
+}
+
+/* blue */
+html body {
+  border-top-color: #1c425a;          
+}
+body #wrapper-footer,
+body .menu-box,
+.js #header .menu-box .selectnav {
+  background-color: #1c425a;                      
+}
+body .content-headline,
+body .entry-headline,
+body .page-title,
+body .sidebar-widget .sidebar-headline,
+body .sidebar-widget .sidebar-headline a {
+  color: #1c425a;                      
+}
+body .menu-box,
+body .menu-box ul ul {
+  border-color: #3c7295;               
+}
+body a {
+  color: #2a5775;       
+}
+body .menu-box a:hover,
+body .menu-box :hover > a {
+  background-color: #25597a;                     
+}
+body #header .menu-box .current-menu-item > a,
+body #header .menu-box .current-menu-ancestor > a,
+body #header .menu-box .current_page_item > a,
+body #header .menu-box .current-page-ancestor > a,
+html .home #header .menu-box .link-home,
+body .footer-signature {
+  background-color: #153245;                                   
+}
+body #footer .footer-widget .footer-headline,
+.js #header .menu-box .selectnav {
+  border-color: #153245;                                        
+}

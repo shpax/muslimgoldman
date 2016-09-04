@@ -1,0 +1,199 @@
+Changelog Legend:
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(08/03/2015) - Update - Version 1.3.4
+
+[*] Updated including of the TGM_Plugin_Activation class (only the users who are allowed to install plugins can see it now).
+[*] Updated paginate_links() arguments (added "add_args").
+[x] Removed some unnecessary code from functions/fe/headerdata.php (the main stylesheet is already enqueued in functions.php).
+
+----
+
+(13/01/2015) - Update - Version 1.3.3
+
+[+] Added unminified version of the Placeholders.js script. 
+[*] Updated Placeholders.js script to the version 3.0.2.
+
+----
+
+(08/12/2014) - Update - Version 1.3.2
+
+[*] Updated the "viewport" meta tag.
+[*] Enqueue the "HTML5 Shiv" through the function midnightcity_scripts_styles().
+[*] Updated German translation.
+
+----
+
+(17/11/2014) - Update - Version 1.3.1
+
+[+] Added Polish translation.
+[+] Mentioned the Text Domain in style.css.
+[*] Set the priority of excerpt_length filter from 999 to 20.
+
+----
+
+(25/10/2014) - Update - Version 1.3.0
+
+[+] Added Danish translation.
+[*] Updated custom WooCommerce styles (Sale Marker position and Related Products floating).
+
+----
+
+(10/10/2014) - Update - Version 1.2.9
+
+[+] Added Dutch translation.
+[*] Updated displaying of the header image.
+[x] Removed deprecated function "screen_icon()" from class-tgm-plugin-activation.php.
+
+----
+
+(24/09/2014) - Update - Version 1.2.8
+
+[*] Updated displaying of widgets in the Right Sidebar.
+[*] Updated displaying of sticky posts (uppercase titles).
+
+----
+
+(10/09/2014) - Update - Version 1.2.7
+
+[*] Updated displaying of the footer widget areas.
+[*] Changed position of the scroll-top button.
+
+----
+
+(30/08/2014) - Update - Version 1.2.6
+
+[*] Updated editor-style.css.
+[*] Updated displaying of the comment form on pages.
+[*] Updated displaying of featured images on posts/pages.
+
+----
+
+(21/08/2014) - Update - Version 1.2.5
+
+[+] Added Italian translation.
+
+----
+
+(12/08/2014) - Update - Version 1.2.4
+
+[+] Added custom Page Template for displaying Full-width pages without Title.
+[*] Updated theme documentation.
+
+----
+
+(03/08/2014) - Update - Version 1.2.3
+
+[*] Updated language localizations.
+
+----
+
+(21/07/2014) - Update - Version 1.2.2
+
+[*] Changed function for dispalying the breadcrumb navigation (hide it on a static front page).
+[!] Fixed possible "Undefined index" debug notices in widget-posts-default.php.
+
+----
+
+(10/07/2014) - Update - Version 1.2.1
+
+[*] Moved $content_width definition inside the Theme setup function.
+[!] Fixed displaying of the drop-down submenus when the text takes up more than 1 line.
+
+----
+
+(28/06/2014) - Update - Version 1.2.0
+
+[+] Added support for WooCommerce plugin.
+
+----
+
+(16/06/2014) - Update - Version 1.1.9
+
+[*] Edited URL address for the Google fonts call (removed http to avoid errors when https is used).
+[*] Edited CSS for "iframe" and "embed" elements.
+[x] Removed definition of unused checkboxes in fw-options.php.
+
+----
+
+(04/06/2014) - Update - Version 1.1.8
+
+[+] Added Turquoise-Violet color scheme.
+[*] Changed styling of the <pre> tag.
+
+----
+
+(21/05/2014) - Update - Version 1.1.7
+
+[+] Added "edit post" links.
+[+] Added theme-slug prefixes to the enqueued scripts and styles.
+
+----
+
+(11/05/2014) - Update - Version 1.1.6
+
+[+] Added Greek translation.
+[*] Changed the navigation to next/previous posts on single posts (added post titles).
+
+----
+
+(30/04/2014) - Update - Version 1.1.5
+
+[*] Changed the navigation to next/previous pages (added page links).
+[*] Updated language localizations.
+
+----
+
+(23/04/2014) - Update - Version 1.1.4
+
+[+] Added custom Page Template for displaying the Landing Page.
+[*] Changed some description texts for TGM-Plugin-Activation.
+[*] Changed the name of TGM_Plugin_Activation class to avoid conflicts with some plugins.
+
+----
+
+(16/04/2014) - Update - Version 1.1.3
+
+[+] Added custom Page Template for displaying pages without the Comments area.
+[+] Added custom Page Template for displaying pages without the Page Title.
+[*] Changed the functions for Theme Options and TGM-Plugin-Activation output (translatable strings containing PHP variables replaced by esc_attr).
+
+----
+
+(10/04/2014) - Update - Version 1.1.2
+
+[+] Added custom Page Template for displaying the page content only for logged in users.
+[*] Updated language localizations.
+[*] Changed the look of the Scroll-top button.
+
+----
+
+(03/04/2014) - Update - Version 1.1.1
+
+[*] Edited the offer of Google Fonts in Theme Options.
+
+----
+
+(28/03/2014) - Update - Version 1.1.0
+
+[+] Added the option for displaying the Header Image on all pages.
+[+] Added Russian language localization.
+
+----
+
+(12/03/2014) - The initial public release - Version 1.0.1
+
+[*] Changed the icon set.
+[*] Edited the query function in functions/fe/widget-posts-default.php.
+
+----
+
+(10/03/2014) - The initial testing release - Version 1.0.0

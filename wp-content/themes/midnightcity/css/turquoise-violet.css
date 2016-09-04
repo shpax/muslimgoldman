@@ -1,0 +1,57 @@
+/* Color scheme Turquoise-Violet
+----------------------------------------------- */
+
+/* turquoise */
+body .site-title a,
+body .post-entry .post-entry-headline a,
+body #content .home-list-posts ul li a,
+body .flexslider .slides li a,
+body .sidebar-widget a {
+  color: #1ba08e;                   
+}
+body .content-headline,
+body .entry-headline,
+body .page-title {
+  border-left-color: #1ba08e; 
+  border-right-color: #1ba08e;                     
+}
+body #searchform .searchform-wrapper .send {
+  background-color: #3aa092;                                            
+}
+body .highlight-text,
+body .post-entry .read-more-button,
+body input[type="submit"],
+body input[type="reset"],
+body .custom-button,
+html #wrapper .panel-row-style-midnightcity .origin-widget-button a {
+  background-color: #45b8a8;                     
+}
+body .post-entry .read-more-button:hover,
+body input[type="submit"]:hover,
+body input[type="reset"]:hover,
+body .custom-button:hover,
+body #searchform .searchform-wrapper .send:hover,
+html #wrapper .panel-row-style-midnightcity .origin-widget-button a:hover {
+  background-color: #0ba08b;                                         
+}
+body #header .menu-box .current-menu-item > a,
+body #header .menu-box .current-menu-ancestor > a,
+body #header .menu-box .current_page_item > a,
+body #header .menu-box .current-page-ancestor > a,
+html .home #header .menu-box .link-home {
+  color: #b7fff5;                                   
+}
+body .sidebar-widget .sidebar-headline {
+  background-color: #b7fff5;                                       
+}
+body .sidebar-widget .sidebar-headline {
+  border-left-color: #6dbdb2; 
+  border-right-color: #6dbdb2;                                      
+}
+body #footer .footer-widget .footer-headline {
+  color: #abd0ca;                                             
+}
+body #footer a,
+body .footer-signature .footer-signature-content a {
+  color: #d2fff8;               
+}  
