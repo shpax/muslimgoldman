@@ -60,6 +60,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	</div><!-- .summary -->
 
+	<div class="summary entry-summary hidden">
+
+		<?php
+
+			do_action( 'woocommerce_single_product_delivery' );
+		?>
+
+	</div><!-- .summary -->
+
 	<?php
 		/**
 		 * woocommerce_after_single_product_summary hook

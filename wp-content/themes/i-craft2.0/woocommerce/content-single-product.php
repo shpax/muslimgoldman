@@ -37,17 +37,10 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 		 */
 		do_action( 'woocommerce_before_single_product_summary' );
 	?>
-<div class="txt1"style="
-    margin-top: -31px;
-    margin-left: 366px;
-    font-size: 12px;
-">Характеристики</div>
-<div class="txt2"style="
-    margin-top: -12px;
-    margin-left: 475px;
-    font-size: 12px;
-">Доставка</div>
-	<div class="summary entry-summary">
+
+	<?php do_action( 'woocommerce_single_product_tabs' ); ?>
+
+	<div class="summary entry-summary main-data">
 
 		<?php
 			/**
@@ -62,6 +55,15 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 			 * @hooked woocommerce_template_single_sharing - 50
 			 */
 			do_action( 'woocommerce_single_product_summary' );
+		?>
+
+	</div><!-- .summary -->
+
+	<div class="summary entry-summary delivery-options hidden">
+
+		<?php
+
+		do_action( 'woocommerce_single_product_delivery' );
 		?>
 
 	</div><!-- .summary -->

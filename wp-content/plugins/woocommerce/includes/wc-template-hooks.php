@@ -134,6 +134,11 @@ add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_p
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
 add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 50 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_gift', 60 );
+
+add_action( 'woocommerce_single_product_delivery', 'woocommerce_template_single_delivery', 10 );
+
+add_action( 'woocommerce_single_product_tabs', 'woocommerce_template_single_tabs', 10);
 
 /**
  * Product Add to cart
