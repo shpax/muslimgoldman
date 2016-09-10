@@ -5693,6 +5693,12 @@ html{
 	border-right:solid 1px #d1c162;
 }
 
+.woocommerce ul.products li.product h3 a {
+	line-height: inherit;
+	float: none;
+	font-size: inherit;
+}
+
 .woocommerce ul.products li.product h3, .woocommerce-page ul.products li.product h3{
 	background-color:#03330b;
 	color:#d1c162;

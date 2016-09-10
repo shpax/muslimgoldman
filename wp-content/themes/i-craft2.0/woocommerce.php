@@ -16,13 +16,13 @@ get_header(); ?>
 			</div> 
 	<?php echo do_shortcode('[rev_slider alias="slide1"]');?>
 	<div id="primary" class="content-area">
+		<?php get_sidebar(); ?>
 		<div id="content" class="site-content" role="main">
 
 			<?php /* The loop */ ?>
 			<?php woocommerce_content(); ?>
 
 		</div><!-- #content -->
-        <?php get_sidebar(); ?>
 	</div><!-- #primary -->
 
 
